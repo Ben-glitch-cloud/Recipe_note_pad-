@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Recipe Finder</title>
+</head>
+<body>  
+    <header> 
+        <div class="header_item">
+            <p>Recipe Finder</p> 
+        </div> 
+        <div class="header_item_nav">
+            <a id="saved_recipe" href="/saved_recipe">Saved Recipes</a>
+        </div>
+    </header>  
+    <section class="search">
+    <form action="/search" method="POST"> 
+        <input type="text" name="food" value="Search for food" class="food_search"> 
+        <input type="submit" name="Search" id="food_search_button">
+    </form> 
+    </section>  
+    <div class="res_output">
+    <% recipe.forEach((item) => {  %>   
+        <div class="res_output_item">
+            <h4><%= item.title %></h4>   
+            <img src=<%= item.img %> alt="">
+            <p><%= item.describe %></p>  
+            <form action="/food/<%= item.link %>" method="POST"> 
+                <input id="recipe" type="submit" value="Recipe">
+            </form>
+        </div>
+    <% }) %> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="/css/ingredients.css">
+    <title>Document</title>
+</head>
+    <body>  
+
+        <header>
+            <h2><%= recipe.header_one %></h2>   
+        </header> 
+
+        <nav> 
+            <div>
+            <form action="/save/<%= recipe.header_one %>/<%= recipe.current_url %>" method="POST"> 
+                <input id="save" type="submit" value="Save">
+            </form>  
+            </div> 
+            <div>
+                <form action="/back" method="GET">
+                    <input id="save" type="submit" value="Back">
+                </form>  
+            </div>
+        </nav> 
+
+        <div class="error">
+            <p><%= error %></p>
+        </div>
+
+        <section class="top">  
+            <div class="top_item_one">
+                <h2>Info</h2>   
+                <% recipe.info.forEach((item) => { %>  
+                    <p><%= item %></p>
+                <% }) %>   
+            </div>  
+
+            <div class="top_item_two">
+                <img src=<%= recipe.res_img %> 
+            </div> 
+
+        </section> 
+
+
+        <section class="middle">  
+            <div class="middle_item">
+            <h2>Ingredients</h2>
+                <% recipe.list_ingredients.forEach((item) => { %>  
+                    <ul>
+                        <li><%= item %></li>
+                    </ul> 
+                <% }) %>  
+            </div>   
+        </section>
+
+    <section class="bottem"> 
+        <div class="bottem_item">
+            <h2>Method</h2>
+            <% recipe.descript.forEach((item) => { %>  
+                <p><%= item %></p>
+            <% }) %>   
+        </div>
+    </section> 
+    <footer>
+        <p>This web application was created by Benedict Lawrence</p>
+    </footer>
+    </body>
+</html>

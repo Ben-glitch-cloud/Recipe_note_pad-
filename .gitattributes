@@ -1,0 +1,51 @@
+# Auto detect
+##   Handle line endings automatically for files detected as
+##   text and leave all files detected as binary untouched.
+##   This will handle all files NOT defined below.
+*                 text eol=lf
+# Source code
+*.css             text eol=lf
+*.html            text diff=html eol=lf
+*.js              text eol=lf
+*.json            text eol=lf
+*.scss            text diff=css eol=lf
+*.ts              text eol=lf
+# Declare files that will always have LF line endings on checkout.
+*.txt eol=lf
+# Documentation
+*.md              text eol=lf
+*.txt             text eol=lf
+AUTHORS           text eol=lf
+CHANGELOG         text eol=lf
+CHANGES           text eol=lf
+CONTRIBUTING      text eol=lf
+COPYING           text eol=lf
+copyright         text eol=lf
+*COPYRIGHT*       text eol=lf
+INSTALL           text eol=lf
+license           text eol=lf
+LICENSE           text eol=lf
+NEWS              text eol=lf
+readme            text eol=lf
+*README*          text eol=lf
+TODO              text eol=lf
+# Linters
+.eslintrc         text eol=lf
+.stylelintrc      text eol=lf
+# Configs
+.babelrc          text eol=lf
+.browserslistrc   text eol=lf
+.editorconfig     text eol=lf
+.env              text eol=lf
+.gitattributes    text eol=lf
+.gitconfig        text eol=lf
+package-lock.json text -diff eol=lf
+*.npmignore       text eol=lf
+*.yaml            text eol=lf
+*.yml             text eol=lf
+browserslist      text eol=lf
+# Graphics
+# SVG treated as an asset (binary) by default.
+*.svg             text eol=lf
+*.png             binary
+*.psd filter=lfs diff=lfs merge=lfs -text
