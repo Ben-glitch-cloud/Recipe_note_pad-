@@ -3,31 +3,33 @@
 <p align="center">This website application was inspired by my mothers recipe folder, which holds recipes from different magazine pages and blogs. This web app takes recipes from <a href="https://www.bbcgoodfood.com/">BBC Good Food</a> when the use types in a food or category of there choose. If the user likes the recipe then they can save it to there notes board for later.</p>   
 </br> 
 </br>
-<img width="650" alt="Screenshot 2021-07-05 at 20 32 22" src="https://user-images.githubusercontent.com/71974361/124512447-4d045e00-ddd0-11eb-83bf-9eadefdca7b8.png"> 
+<div align="center"><img width="650" alt="Screenshot 2021-07-05 at 20 32 22" src="https://user-images.githubusercontent.com/71974361/124512447-4d045e00-ddd0-11eb-83bf-9eadefdca7b8.png"></div>  
+
+<div align="center"><img width="700" alt="Screenshot 2021-07-05 at 20 32 38" src="https://user-images.githubusercontent.com/71974361/124512557-9359bd00-ddd0-11eb-85d9-97e904a7470b.png"></div>
 </br>
 </br>
-<h2>Tech Stack</h2> 
+<h2 align="center">Tech Stack</h2> 
 
-<p>Backend</p>  
+<p align="center">Backend</p>  
 
-<img src="https://img.shields.io/badge/-node-black?logo=node.js&logoColor=green">
+<p align="center"><img src="https://img.shields.io/badge/-node-black?logo=node.js&logoColor=green"></p>
 
-<p>Frontend</p>
+<p align="center">Frontend</p>
 
-<img src="https://img.shields.io/badge/-HTML5-black?logo=HTML5&logoColor=orange"> <img src="https://img.shields.io/badge/-CSS3-black?logo=CSS3&logoColor=blue"> <img src="https://img.shields.io/badge/-ejs-black?logo=ejs&logoColor=red">
+<div align="center"><img src="https://img.shields.io/badge/-HTML5-black?logo=HTML5&logoColor=orange"> <img src="https://img.shields.io/badge/-CSS3-black?logo=CSS3&logoColor=blue"> <img src="https://img.shields.io/badge/-ejs-black?logo=ejs&logoColor=red"></div>
 
-<p>Middle Ware</p> 
+<p align="center">Middle Ware</p> 
 
-<img src="https://img.shields.io/badge/-express-black?logo=express&logoColor=white"> 
+<div align="center"><img src="https://img.shields.io/badge/-express-black?logo=express&logoColor=white"></div> 
 
-<p>Dependency</p> 
+<p align="center">Dependency</p> 
 
-<img src="https://img.shields.io/badge/-puppeteer-black?logo=puppeteer&logoColor=lightblue"> 
+<div align="center"><img src="https://img.shields.io/badge/-puppeteer-black?logo=puppeteer&logoColor=lightblue"></div> 
 
-<p>Database</p> 
+<p align="center">Database</p> 
 
-<img src="https://img.shields.io/badge/-postgreSQL-black?logo=postgreSQL&logoColor=lightgrey">
-
+<div align="center"><img src="https://img.shields.io/badge/-postgreSQL-black?logo=postgreSQL&logoColor=lightgrey"></div>
+</br>
 <h2 align="center">Getting started</h2>  
 
 <p>1. Fork the repo and clone the project in an empty directory.</p>
