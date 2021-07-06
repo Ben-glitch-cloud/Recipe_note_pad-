@@ -1,6 +1,6 @@
 <h1 align="center">Recipe Note Pad</h1>  
 
-<p align="center">This website application was inspired by my mothers recipe folder, which holds recipes from different magazine pages and blogs. This web app takes recipes from <a href="https://www.bbcgoodfood.com/">BBC Good Food</a> when the use types in a food or category of there choose. If the user likes the recipe then they can save it to there notes board for later.</p>   
+<p align="center">This website application was inspired by my mothers recipe folder, which holds recipes from different magazine pages and blogs. This web app takes recipes from <a href="https://www.bbcgoodfood.com/">BBC Good Food</a> when the user types in a food or category of there choose. If the user likes the recipe then they can save it to there notes board for later.</p>   
 </br> 
 </br>
 <div align="center"><img width="650" alt="Screenshot 2021-07-05 at 20 32 22" src="https://user-images.githubusercontent.com/71974361/124512447-4d045e00-ddd0-11eb-83bf-9eadefdca7b8.png"></div>  
