@@ -57,11 +57,13 @@ $ npm npm i puppeteer
 
 <p>3. Create the database and table found in the models directory.</p>
 
-<p>4. Now lets start the web application.</p>  
+<p>4. Now lets start the web application.</p>   
 
 ``` 
 $ nodemon app.js 
-```  
+```   
+
+<p>👏 All done 👍</p>
 
 <h2>User Story</h2> 
 
