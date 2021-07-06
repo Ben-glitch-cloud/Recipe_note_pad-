@@ -1,5 +1,7 @@
-<h1 align="center">Recipe Note Pad</h1>  
+<h1 align="center">Recipe Note Pad</h1>   
 
+<div align="center"><img width="250" src="https://user-images.githubusercontent.com/71974361/124639481-1f78ec80-de84-11eb-8be6-aea7d2f2eb21.gif"></div>
+</br>
 <p align="center">This website application was inspired by my mothers recipe folder, which holds recipes from different magazine pages and blogs. This web app takes recipes from <a href="https://www.bbcgoodfood.com/">BBC Good Food</a> when the user types in a food or category of there choose. If the user likes the recipe then they can save it to there notes board for later.</p>   
 </br> 
 </br>
