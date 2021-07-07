@@ -36,26 +36,11 @@
 
 <p>1. Fork the repo and clone the project in an empty directory.</p>
 
-<p>2. Install the dependency seen below.</p> 
+<p>2. Install the dependency.</p> 
 
 ``` 
-$ npm install pg 
-``` 
-``` 
-$ npm install --save-dev nodemon
-```  
-``` 
-$ npm install express
-``` 
-``` 
-$ npm express-session
-``` 
+$ npm install
 ```
-$ npm install ejs
-``` 
-``` 
-$ npm npm i puppeteer
-```  
 
 <p>3. Create the database and table found in the models directory.</p>
 
